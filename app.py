@@ -353,19 +353,19 @@ def capture_image(save_path):
     cap.release()
     cv2.destroyAllWindows()
 
-positive_folder = r"D:\colab\positives"
+positive_folder = r".\positives"
 if not os.path.exists(positive_folder):
     os.makedirs(positive_folder)
 
 
-negative_folder = r"D:\colab\negative"
+negative_folder = r".\negative"
 if not os.path.exists(negative_folder):
     os.makedirs(negative_folder)
 # Capture and save the image
 capture_image(positive_folder)
 capture_image(negative_folder)
 
-Detector = WatchErrorDetector(r"positives\captured_image.jpg", r"negative\captured_image.jpg", debug=False, n_stds=0.7)
+Detector = WatchErrorDetector(r".\positives\captured_image.jpg", r".\negative\captured_image.jpg", debug=False, n_stds=0.7)
 Detector.align_query_image()
 Detector.compute_difference()
 

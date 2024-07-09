@@ -1,2 +1,1 @@
-ingredients_in_the_store = "Potato, Garlic Powder, Espresso, Hazel Nut Chocolate, Noodles, Pasta', Salami, Black Coffee, Olive Oil, Corn Flakes, Onion, Sphagetti, Nescafe coffee, Cucumber, Brown Sugar, Healthhy Mix, Pear, Dark Chocolatw, Fruit Cookies, Cabbage, Oats, Banana Cookies, Pomogranate, Pepsi, Tea, Ham, Juice, Apple, Paneer, Tuna, Pasta Sauce, Milk, Butter, Beans, Tomato, Golden Sugar, Brinjal, Cosmic Chocolate, Mango, Chocolate Cookies, Beef, Honey"
 
